@@ -1,0 +1,56 @@
+.nav .icon {
+    margin-top: 1rem;
+    margin-right: 0.2rem;
+    width:0.5rem;
+    transform:rotate(30deg);
+    transform-origin: right top;
+}
+
+.nav ul{
+    background-color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+}
+.nav li{
+    display:inline-block;
+    padding : 0 2rem;
+    padding-bottom:2rem;
+}
+.nav .menu a:link{
+    text-decoration:none;
+    color:black;
+}
+.nav .menu a:visited{
+    color:black
+}
+.nav .menu a:hover{
+    color:#CBA17C;
+}
+.nav .menu a:active{
+    color:#CBA17C;
+}
+.nav .title a .titlespan{
+    font-weight:900;
+}
+.nav .title a{
+    text-decoration: none;
+}
+.nav .title a:visited{
+    color:black;
+}
+.footer div{
+    padding-bottom:3rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position:relative;
+    top:3rem;
+    bottom:0;
+    width:100%;
+    color:white;
+    font-size:14px;
+    flex-direction: column;
+}
