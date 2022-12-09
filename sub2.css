@@ -2,6 +2,7 @@ html {
     margin: 0;
     padding: 0;
     width: 100%;
+    height:100%;
 }
 
 body {
@@ -21,11 +22,12 @@ body {
 .sub2title{
     padding-top:3rem;
     margin:0 0 2rem;
+    font-weight:800;
 }
 
 #tags{
     background-color:#D3C2B4;
-    padding-bottom:50%;
+    padding-bottom:30%;
 }
 .tag{
     display:inline-block;
@@ -37,6 +39,7 @@ body {
     border-radius: 3rem;
     font-size: medium;
     font-weight: 900;
+    margin-top:1rem;
 }
 
 .tag:hover{
@@ -44,7 +47,7 @@ body {
 }
 
 
-#add {
+#add{
     background-color: #CBA17C;
     border: none;
     padding: 1rem 2rem;

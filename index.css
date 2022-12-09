@@ -34,12 +34,20 @@
 .nav .title a .titlespan{
     font-weight:900;
 }
+
 .nav .title a{
     text-decoration: none;
+    color:black;
 }
+
+.nav .title a:active {
+    color: black;
+}
+
 .nav .title a:visited{
     color:black;
 }
+
 .footer div{
     padding-bottom:3rem;
     display:flex;
