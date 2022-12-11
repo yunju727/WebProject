@@ -53,3 +53,16 @@ body{
 #here{
     cursor:pointer;
 }
+#totop {
+    margin-bottom:2rem;
+    background-color: #CBA17C;
+    border:0;
+    padding:1rem;
+    border-radius: 1rem;
+    color:white;
+    font-weight:700;
+}
+#totop:hover{
+    background-color:#D08B4D;
+    cursor:pointer;
+}
